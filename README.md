@@ -46,7 +46,7 @@ Please be kind to star and fork this repo!✨😇
 
 <br>
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XMYSTERlOUSX/mega-link-downloader-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/flmorse/mega-link-downloader-bot)
 </details>
 
 <details>
@@ -253,7 +253,7 @@ Now send your "mega.ini" file to your bot and as a reply to it send the command 
 * [Anjana](https://github.com/AnjanaMadu) for various helps!
 * [Dan](https://github.com/delivrance) for [pyrogram](https://github.com/Pyrogram)
 
-<b>Project written and created by</b> - [XMYSTERIOUSX](https://github.com/XMYSTERlOUSX)
+<b>Project edited by</b> - [flmorse](https://github.com/flmorse)
 
 ---
 
