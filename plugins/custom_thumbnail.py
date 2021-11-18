@@ -32,18 +32,6 @@ async def save_photo(bot, update):
       time.sleep(5)
       await a.delete()
       return
-#     if Config.UPDATE_CHANNEL:
-#       try:
-#           user = await bot.get_chat_member(Config.UPDATE_CHANNEL, update.from_user.id)
-#           if user.status == "kicked":
-#             await bot.edit_message_text(text=Translation.BANNED_USER_TEXT, message_id=fmsg.message_id)
-#             return
-#       except UserNotParticipant:
-#           await bot.edit_message_text(chat_id=update.chat.id, text=Translation.FORCE_SUBSCRIBE_TEXT, message_id=fmsg.message_id, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="😎 Join Channel 😎", url=f"https://telegram.me/{Config.UPDATE_CHANNEL}")]]))
-#           return
-#       except Exception:
-#           await bot.edit_message_text(chat_id=update.chat.id, text=Translation.SOMETHING_WRONG, message_id=fmsg.message_id)
-#           return
     fuser = update.from_user.id
     if check_blacklist(fuser):
         await update.reply_text("Sorry! You are Banned!")
