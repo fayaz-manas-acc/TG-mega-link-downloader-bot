@@ -20,7 +20,9 @@ Press /help for more details!
 
 ✨ <b>This bot was created by 👇</b>"""
     
-    
+    NOT_AUTH_TXT = "<b>⚠️ Unauthorized Access ⚠️</b>\nYou're not Auth User. So You Can't Use the Core " \
+                   "components of this Bot. Inconvenience is regretted!"
+        
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
     SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
     FORCE_SUBSCRIBE_TEXT = "<b>⚠️ Unauthorized Access ⚠️</b>\nYou're not Auth User. So You Can't Use the Core " \
