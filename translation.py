@@ -20,6 +20,11 @@ Press /help for more details!
 
 ✨ <b>This bot was created by 👇</b>"""
     
+    
+    BANNED_USER_TEXT = "<code>You are Banned!</code>"
+    SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
+    FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
+    
     DOWNLOAD_START = "<b>Downloading to my server now 📥</b> \n\n<code>Please wait uploading will start as soon as possible😇...</code>"
     UPLOAD_START = "Uploading to Telegram now 📤..."
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS =  "Downloaded in <b>{}</b> seconds.\n\nUploaded in <b>{}</b> seconds.\n\n<b>Thanks For Using This Free Service</b>"
@@ -56,6 +61,3 @@ Ex:- <a href="https://telegra.ph/file/bdc35efc07712050bc418.jpg">Send Like This!
 <b>Note</b> :- You can download links which are bigger than 2GB from me too! Due to telegram API limits I can't upload files which are bigger than 2GB so I will split such files and upload them to you!
 
 ✨ <b>This bot was created by 👇</b>"""
-BANNED_USER_TEXT = "<code>You are Banned!</code>"
-SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
-FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
