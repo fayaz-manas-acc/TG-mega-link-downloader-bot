@@ -22,11 +22,11 @@ from database.userchats import add_chat
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-REPLY_MARKUP = InlineKeyboardMarkup(
-    [
-        [InlineKeyboardButton("༺🅹🅾️🅷🅽 🅳🅾️🅴༻", url="https://t.me/johndoelk")],
-    ]
-)
+# REPLY_MARKUP = InlineKeyboardMarkup(
+#     [
+#         [InlineKeyboardButton("༺🅹🅾️🅷🅽 🅳🅾️🅴༻", url="https://t.me/johndoelk")],
+#     ]
+# )
 
 @Client.on_message(filters.command("help"))
 async def help_user(bot, update):
