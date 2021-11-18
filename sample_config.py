@@ -35,8 +35,8 @@ class Config(object):
     #If deploying on vps edit the above value as example := 
     #AUTH_USERS = set(int(x) for x in (id1, id2)) 👈 Type exactly as that and replace id1 and id2 with the id's of the telegram users, who you want to allow for multitasking. You cand add many users like that!
     
-    # Log channel for banning spammers
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+    # Update channel for Force Subscribe
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
     
     
     DOWNLOAD_LOCATION = "./DOWNLOADS" # The download location for users. (Don't change anything in this field!)
