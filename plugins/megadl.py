@@ -45,7 +45,7 @@ downlaoding_in_megacmd = False
 
 @Client.on_message(filters.regex(pattern=".*http.*"))
 async def mega_dl(bot, update):
-  global downlaoding_in_megacmd
+    global downlaoding_in_megacmd
     if update.from_user.id not in Config.AUTH_USERS:
       await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
       a = await update.reply_text(text=Translation.NOT_AUTH_TXT)
