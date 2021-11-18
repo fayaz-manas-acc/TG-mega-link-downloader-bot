@@ -30,6 +30,9 @@ class Config(object):
 
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
     
+    # Update channel for Force Subscribe
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    
     #If deploying on heroku separate the ids by space. (don't put commas. Only separate each of the id's with space)
     
     #If deploying on vps edit the above value as example := 
