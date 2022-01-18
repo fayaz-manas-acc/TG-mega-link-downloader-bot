@@ -6,19 +6,19 @@ else:
     from config import Config
 
 class Translation(object):
-    START_TEXT = f"""<b>Hello there,</b>
+    START_TEXT = f"""<b>Hᴇʟʟᴏ ,</b>
     
-I am a <b>Mega Link Downloader</b> bot!
+<b>I ᴀᴍ ᴀ Mᴇɢᴀ Lɪɴᴋ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ</b>
 
-Just enter your mega.nz link and I will return the file/video to you!😇
+<b>𝐉ᴜ𝐬ᴛ 𝐄ɴᴛᴇʀ 𝐘ᴏᴜʀ 𝐌ᴇɢᴀ.𝐍ᴢ 𝐋ɪɴᴋ 𝐀ɴᴅ 𝐈 𝐖ɪʟʟ 𝐑ᴇᴛᴜʀɴ 𝐓ʜᴇ 𝐅ɪʟᴇ/𝐕ɪᴅᴇᴏ 𝐓ᴏ 𝐘ᴏᴜ!😇</b>
 
-💠 I can set custom captions and custom thumbnails too!
+<b>💠 𝐈 𝐂ᴀɴ 𝐒ᴇᴛ 𝐂ᴜ𝐬ᴛᴏᴍ 𝐂ᴀᴘᴛɪᴏɴ𝐬 𝐀ɴᴅ 𝐂ᴜ𝐬ᴛᴏᴍ 𝐓ʜᴜᴍʙɴᴀɪʟ𝐬 𝐓ᴏᴏ!</b>
 
-💠 I can download links which are bigger than 2GB too! 😍
+<b>💠 𝐈 𝐂ᴀɴ 𝐃ᴏᴡɴʟᴏᴀᴅ 𝐋ɪɴᴋ𝐬 𝐖ʜɪᴄʜ 𝐀ʀᴇ 𝐁ɪɢɢᴇʀ 𝐓ʜᴀɴ 𝟸𝐆𝐁 𝐓ᴏᴏ! 😍</b>
 
-Press /help for more details!
+<b>Pʀᴇss /help Fᴏʀ Mᴏʀᴇ Dᴇᴛɪᴀʟs!</b>
 
-✨ <b>This bot was created by 👇</b>"""
+✨ <b>𝗕𝗢𝗧 𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗔𝗡𝗗 𝗠𝗔𝗧𝗜𝗡𝗔𝗘𝗗 𝗕𝗬 @KOT_FREE_DE_LA_HOYA_OFF</b>"""
     
     NOT_AUTH_TXT = "<b>⚠️ Unauthorized Access ⚠️</b>\nYou're not Auth User. So You Can't Use the Core " \
                    "components of this Bot. Inconvenience is regretted!"
@@ -53,8 +53,8 @@ press /deletethumbnail if you want to delete the previously saved thumbnail.
 
 💠 Select an uploaded file/video or forward me <b>Any Telegram File</b> and Just write the text you want to be on the file as a reply to the File by selecting it (as replying to a message😅) and the text you wrote will be attached as caption!😍
 
-Ex:- <a href="https://telegra.ph/file/bdc35efc07712050bc418.jpg">Send Like This! It's Easy🥳</a>
+Ex:- <a href="https://telegra.ph/file/ba0abc119d4142ae54111.jpg">Send Like This! It's Easy🥳</a>
 
 <b>Note</b> :- You can download links which are bigger than 2GB from me too! Due to telegram API limits I can't upload files which are bigger than 2GB so I will split such files and upload them to you!
 
-✨ <b>This bot was created by 👇</b>"""
+✨ <b>𝗕𝗢𝗧 𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗔𝗡𝗗 𝗠𝗔𝗧𝗜𝗡𝗔𝗘𝗗 𝗕𝗬 @KOT_FREE_DE_LA_HOYA_OFF</b>"""
